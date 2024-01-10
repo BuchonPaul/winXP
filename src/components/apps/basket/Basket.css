@@ -1,0 +1,79 @@
+.basketContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 25vh;
+  background: rgb(248, 248, 248);
+}
+
+.basketMenu{
+  box-shadow: inset 2px 2px white,inset -2px -2px darkgrey;
+  height: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #EEE5D7;
+  font-size: 13px;
+  padding-left: 3%;
+}
+.basketMenu button {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: 0px;
+  border: 0px;
+  margin-left: 6px;
+}
+.basketMenu button:hover {
+  background: rgba(0, 132, 255, 0.11);
+  box-shadow: inset 0px 0px 0px  1px rgba(0, 132, 255, 0.534);
+}
+
+.basketMenu img {
+  height: 25px;
+  width: auto;
+  margin-right: 6px;
+}
+
+.cardContainer{
+  overflow-y: scroll;
+  height: 100%;
+}
+.supCard{
+  width: 98%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 2%;
+
+}
+
+.supCard img{
+  width: 50px;
+ height: 50px;
+} 
+
+.supCard .desc{
+ height: 85%;
+ padding-top: 5px;
+ margin-left: 15px;
+ border-bottom: 1px solid rgb(219, 219, 219);
+ width: inherit;
+}
+.supCard .desc h6{
+margin: 0px;
+}
+
+.selected{
+  background-color: rgba(0, 132, 255, 0.212);
+  box-shadow: inset 0px 0px 0px  1px rgba(0, 132, 255, 0.534);
+}
+.disabled{
+  opacity: 0.3;
+}
+button.disabled:hover{
+  box-shadow: 0px !important;
+  background-color: transparent!important ;
+}

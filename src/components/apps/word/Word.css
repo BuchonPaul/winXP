@@ -1,0 +1,28 @@
+.wordContainer {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 700px;
+  overflow-y: scroll;
+  background: gray;
+}
+
+.toolButton:hover {
+  background-color: rgb(215, 224, 238);
+}
+
+.titInput {
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #aca69c;
+}
+.wordPage{
+  background: white;
+}
+.tiptap {
+  background-color: white;
+  width: 86%;
+  top: 40px;
+  left: 7%;
+  height: 1000px;
+  padding: 10px;}

@@ -1,0 +1,63 @@
+.footerContainer{
+  background: linear-gradient(rgb(31, 47, 134) 0px, rgb(49, 101, 196) 3%, rgb(54, 130, 229) 6%, rgb(68, 144, 230) 10%, rgb(56, 131, 229) 12%, rgb(43, 113, 224) 15%, rgb(38, 99, 218) 18%, rgb(35, 91, 214) 20%, rgb(34, 88, 213) 23%, rgb(33, 87, 214) 38%, rgb(36, 93, 219) 54%, rgb(37, 98, 223) 86%, rgb(36, 95, 220) 89%, rgb(33, 88, 212) 92%, rgb(29, 78, 192) 95%, rgb(25, 65, 165) 98%);
+  border-top: 1px solid #0f4575;
+  height: 4vh;
+  z-index: 1000000;
+  position: sticky;
+}
+.mainButton{
+  background: linear-gradient(180deg, rgb(37, 86, 37) 0%, rgb(73, 137, 72) 15%, rgb(42, 197, 44) 87%, rgb(30, 119, 31) 100%);
+  border: 1px solid #1c631b;
+  width: 115px;
+  font-size: 13pt !important;
+  height: 4vh !important;
+  font-style: italic;
+  border-radius: 0 7px 7px 0 !important;
+  color: #fff;
+  text-align: left;
+  text-shadow: 1px 2px 2px #505051;
+  padding-right: 4px;
+}
+.footerTool{
+  background: linear-gradient(rgb(12, 89, 185) 1%, rgb(19, 158, 233) 6%, rgb(24, 181, 242) 10%, rgb(19, 155, 235) 14%, rgb(18, 144, 232) 19%, rgb(13, 141, 234) 63%, rgb(13, 159, 241) 81%, rgb(15, 158, 237) 88%, rgb(17, 155, 233) 91%, rgb(19, 146, 226) 94%, rgb(19, 126, 215) 97%, rgb(9, 91, 201) 100%);  font-size: 9pt !important;
+  border-radius: 0px !important;
+  padding: 3px 30px 3px 30px !important;
+  height: 4vh !important;
+  font-style: italic;
+  color: #fff;
+  text-align: center !important;
+    text-shadow: 1px 2px 2px #50505186;
+  box-shadow: inset 1px 2px rgba(255, 255, 255, 0.384),-2px 0px 3px rgba(0, 0, 0, 0.493);
+  line-height: 14px !important;
+}
+.mainButton img {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+
+.mainButton:hover {
+  cursor: pointer;
+  filter: contrast(125%);
+
+}
+.footerApp{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start ;
+  padding-left: 3px;
+  width: 100%;
+}
+.appButton{
+  margin: 0.5vh !important;
+  height: 3vh !important;
+  background-color: rgb(60, 129, 243);
+  box-shadow: rgba(0, 0, 0, 0.3) -1px 0px inset, rgba(255, 255, 255, 0.2) 1px 1px 1px inset;}
+.appButton:hover{
+  filter: contrast(125%);
+  cursor: pointer;
+}
+.windowLogo{
+  height: 15px;
+  width: 15px;
+}

@@ -1,0 +1,47 @@
+.teContainer {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolBar {
+  width: 100%;
+  min-height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #EEE5D7;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(0, 136, 255);
+}
+
+.toolButton {
+  padding: 0px 7px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toolButton:hover {
+  background-color: rgb(215, 224, 238);
+}
+
+.titInput {
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #aca69c;
+  outline: none !important;
+}
+
+.descInput {
+  border: 0px;
+  border-radius: 0px;
+  margin: 0px;
+  width: 99.2%;
+  height: 97%;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none !important;
+} 

@@ -1,0 +1,105 @@
+.MenuContainer{
+    width: 380px;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    background-color: rgb(66, 130, 214);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    margin-bottom: 32px;
+}
+.winHeader{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 54px;
+    width: inherit;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(rgb(24, 104, 206) 0%, rgb(14, 96, 203) 12%, rgb(14, 96, 203) 20%, rgb(17, 100, 207) 32%, rgb(22, 103, 207) 33%, rgb(27, 108, 211) 47%, rgb(30, 112, 217) 54%, rgb(36, 118, 220) 60%, rgb(41, 122, 224) 65%, rgb(52, 130, 227) 77%, rgb(55, 134, 229) 79%, rgb(66, 142, 233) 90%, rgb(71, 145, 235) 100%);
+    overflow: hidden;
+}
+
+.winButtons{
+    height: 300px;
+    background: white;
+    width: 100%;
+    display: flex;
+}
+.appButtons{
+    width: 50%;
+}
+.fileButton{
+    background-color: #CBE3FF;
+    border-left: 1px solid rgba(58, 58, 255, 0.37);
+    width: 50%;
+    padding-top: 5px;
+}
+.orange-hr{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 49px;
+    display: block;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(218, 136, 74) 50%, rgba(0, 0, 0, 0) 100%);
+    border: 0px;
+}
+.MenuContainer footer{
+    display: flex;
+    align-self: flex-end;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    color: rgb(255, 255, 255);
+    height: 36px;
+    width: 100%;
+    background: linear-gradient(rgb(66, 130, 214) 0%, rgb(59, 133, 224) 3%, rgb(65, 138, 227) 5%, rgb(65, 138, 227) 17%, rgb(60, 135, 226) 21%, rgb(55, 134, 228) 26%, rgb(52, 130, 227) 29%, rgb(46, 126, 225) 39%, rgb(35, 116, 223) 49%, rgb(32, 114, 219) 57%, rgb(25, 110, 219) 62%, rgb(23, 107, 216) 72%, rgb(20, 104, 213) 75%, rgb(17, 101, 210) 83%, rgb(15, 97, 203) 88%);
+}
+.menuApp{
+    display: flex;
+    width: initial;
+    margin: 5px;
+    align-items: center;
+    border-radius: 1px;
+}
+.menuApp:hover{
+    background-color:#2F71CD ;
+    color: white !important;
+}
+.menuApp img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.menuApp h4{
+    margin: 0px;
+}
+.menuApp p{
+    margin: 0px;
+    color: rgb(126, 126, 126);
+}
+.actionButton{
+    display: flex;
+    align-items: center;
+    padding: 0px 2px ;
+    height: 30px;
+}
+.actionButton:hover{
+    background-color:#2F71CD ;
+    color: white !important;
+}
+.actionButton img{
+    width: 22px;
+    height: 22px;   
+    margin-right: 2px;
+}
+.actionButton h3{
+    font-size: 13px;    
+}

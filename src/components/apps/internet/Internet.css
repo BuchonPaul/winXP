@@ -1,0 +1,86 @@
+.IEContainer {
+  width: 720px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.welcomPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+.responseField {
+  width: 100%;
+
+  background: white;
+}
+.searchField{
+  display: flex;
+}
+.searchField input{
+  width: 300px;
+  margin-right: 10px;
+  border: 1.5px solid rgb(181, 181, 181);
+}
+.googleWindow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.resInput {
+  height: 25%;
+}
+
+.searchPage {
+  flex-direction: column;
+  height: 100%;
+}
+
+.searhHeader {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 680px;
+  background-color: white;
+  border-bottom: rgb(0, 106, 192) 1px solid;
+}
+
+.searhHeader img {
+  width: 200px;
+}
+
+.searhHeader input {
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid rgb(0, 106, 192);
+}
+
+.searchBut {
+  background-color: rgb(246, 244, 242);
+  border-radius: 5px;
+}
+
+.searchBut:hover{
+  box-shadow: rgb(70, 70, 255) 0px 0px 2px 1px inset;
+}
+
+.searchContent {
+  padding: 50px 20px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.searchContent .response{
+  width: 100%;
+}
+.searchContent .response h4{
+  width: 100%;
+  color: rgb(32, 86, 246);
+  text-decoration: underline;
+}

@@ -1,0 +1,85 @@
+.wordMenu{
+  position: sticky;
+  top: 0px;
+  width:100%;
+  box-shadow: inset 1px 1px white,inset -1px -1px darkgrey;
+  height: 25px;
+  z-index: 100000;
+}
+.wordToolBar {
+  width: 100%;
+  min-height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #EEE5D7;
+  font-size: 13px;
+  box-shadow: inset 1px 1px white,inset -1px -1px darkgrey;
+}
+.tools{
+  height: 28px;
+}
+.wordToolBar button {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: 0px;
+  border: 0px;
+}
+.wordToolBar input {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: 0px;
+  border: 0px;
+}
+.styled-select {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  overflow: hidden;
+  height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-left: 10px;
+}
+
+.wordToolBar button:hover {
+  background: rgba(0, 132, 255, 0.11);
+  box-shadow: inset 0px 0px 0px  1px rgba(0, 132, 255, 0.534);
+}
+
+.wordToolBar img {
+  height: 15px;
+  width: auto;
+}
+
+.section{
+  display: flex;
+  margin: 0px 5px 0px 5px;
+  border-left: 1px rgb(172, 172, 172) solid;
+  height: 25px;
+  padding-left: 5px;
+}
+.wordButton {
+  padding: 0px 7px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.wordAction{
+  height: 15px;
+}
+.marg{
+  margin-left:10px ;
+}
+#chooseColor{
+  opacity: 0;
+}
